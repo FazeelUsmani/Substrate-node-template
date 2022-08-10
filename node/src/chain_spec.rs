@@ -2,6 +2,8 @@ use node_template_runtime::{
 	AccountId, AuraConfig, BalancesConfig, GenesisConfig, GrandpaConfig, Signature, SudoConfig,
 	SystemConfig, WASM_BINARY,
 };
+use sp_core::OpaquePeerId; // A struct wraps Vec<u8>, represents as our `PeerId`.
+use node_template_runtime::NodeAuthorizationConfig; // The genesis config that serves for our pallet.
 use sc_service::ChainType;
 use sp_consensus_aura::sr25519::AuthorityId as AuraId;
 use sp_core::{sr25519, Pair, Public};

@@ -1,5 +1,10 @@
 # Substrate Node Template
 
+### Balance Transfer: 
+Verified the amount is transferred from Alice to Dave
+![Balance transfer](img/image.png)
+
+
 [![Try on playground](https://img.shields.io/badge/Playground-Node_Template-brightgreen?logo=Parity%20Substrate)](https://docs.substrate.io/playground/) [![Matrix](https://img.shields.io/matrix/substrate-technical:matrix.org)](https://matrix.to/#/#substrate-technical:matrix.org)
 
 A fresh FRAME-based [Substrate](https://www.substrate.io/) node, ready for hacking :rocket:
